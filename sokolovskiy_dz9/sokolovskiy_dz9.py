@@ -22,9 +22,7 @@ def writing_into_txt(what_to_write, where_to_write):
     
 def main():
     val = reading_str('ovosh.html')
-    print(val)
     val1 = searching_smth(val)
-#   val2 = find_mistake(val1)
     val3 = writing_into_txt(val1, 'sokolovskiy_result.txt')
 
 if __name__ ==  '__main__':
